@@ -121,9 +121,9 @@
 }
 /* Register panel */
 .panel1{
+
     width: 55vw;
     height:30vw;
-
     margin-left: 25%;
     display: flex;
     flex-direction: column;
@@ -306,3 +306,151 @@
     margin-top: 1.5%;
 }
 /* panel 2 finished */
+.panel3{
+
+    width: 55vw;
+    height:60vh;
+    margin-left: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+}
+.panel3A{
+    
+    width:50vw;
+    height:15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#panel3A_1{
+    width: 23vw;
+    height:2vw;
+    color: black;
+    font-size: x-large;
+    font-weight: bolder;
+}
+#panel3A_2{
+    width: 30vw;
+    height:10vh;
+    font-size: small;
+    text-align: center; 
+}
+.panel3B{
+   
+    width:50vw;
+    height:35vh;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    
+ 
+}
+#panel3B_1{
+    width: 15vw;
+    height:22vh;
+    color: black;
+    font-size: 27px;
+    font-weight: bolder;
+   
+    border-radius: 5%;
+    position: relative;
+    background-image: url("img5\ \(1\).png");
+    background-size: cover;
+}
+
+#panel3B_2{
+    width: 15vw;
+    height:22vh;
+    color: black;
+    font-size: 27px;
+    font-weight: bolder;
+    
+    border-radius: 5%;
+    position: relative;
+    background-image: url("img5\ \(2\).png");
+    background-size: cover;
+}
+
+#panel3B_3{
+    width: 15vw;
+    height:22vh;
+    color: black;
+    font-size: 27px;
+    font-weight: bolder;
+    background-image: url("img5\ \(3\).png");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    border-radius: 5%;
+    position: relative;
+}
+#panel3B_11{
+    width: 12vw;
+    height:15vh;
+    color: black;
+    font-weight: bolder;
+    background-color: rgb(230, 228, 233);
+    border-radius: 5%;
+    position: absolute;
+    top:12vh;
+    left:20px;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#panel3B_21{
+    width: 12vw;
+    height:15vh;
+    color: black;
+    font-weight: bolder;
+    background-color: rgb(230, 228, 233);
+    border-radius: 5%;
+    position: absolute;
+    top:12vh;
+    left:20px;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#panel3B_31{
+    width: 12vw;
+    height:15vh;
+    color: black;
+    font-weight: bolder;
+    background-color: rgb(230, 228, 233);
+    border-radius: 5%;
+    position: absolute;
+    top:12vh;
+    left:20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+.insideoverpanel{
+    width: 11vw;
+    height:8vh;
+    font-size: small;
+    text-align: center;
+}
+.insideoverpanel2{
+    width: 10vw;
+    height:2vh;
+    color: black;
+    text-decoration: none;
+    font-size: small;
+    text-align: center;
+    color: green;
+}
+/*panel 3 finshed*/
