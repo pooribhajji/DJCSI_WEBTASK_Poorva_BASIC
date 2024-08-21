@@ -3,6 +3,12 @@
     padding:0px;
     box-sizing: border-box;
 }
+.body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 /*NAVBAR*/
 .navbar{
     background-color: white;
@@ -10,9 +16,9 @@
     width: 100vw;
     height: 10vh;
     display: flex;
-    justify-content: left;
+    justify-content: center;
     align-items: center;
-    gap:35%;
+    gap:20%;
 }
 .navLogoPanel{
     display:flex;
@@ -48,4 +54,68 @@
     padding:1.5%;
     border-radius: 5%;
 }
+/*NAVBAR */
 
+/* Image div */
+.register{
+    width: 55vw;
+    height:30vw;
+    background-color:#e4f2e7;
+    margin-left: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.regText{
+    height: 30vw;
+    margin-left:2%;
+    width:25vw;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+    gap:3%;
+}
+.regImg{
+    height: 25vw;
+    width:25vw;
+    background-image: url("Img1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#regText1{
+    height: 2.5vw;
+    width:25vw;
+  
+    color: black;
+   font-size: 40px;    
+
+}
+#regText2{
+    height: 2.5vw;
+    width:25vw;
+    
+    color: green;
+    font-size: xx-large;
+
+}
+#regText3{
+    height: 2.5vw;
+    width:25vw;
+   
+    color: black;
+    font-size: medium;
+}
+#reg{
+ align-self: flex-start;   
+ background-color: #04AA6D;
+ border: none;
+ color: white;
+ padding: 10px 30px;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ font-size: 16px;
+ border-radius: 5%;
+}
