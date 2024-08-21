@@ -119,3 +119,137 @@
  font-size: 16px;
  border-radius: 5%;
 }
+/* Register panel */
+.panel1{
+    width: 55vw;
+    height:30vw;
+
+    margin-left: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.panel1A{
+    width: 25vw;
+    height:10vw;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#panel1A_1{
+    width: 23vw;
+    height:6vw;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 23px;
+    font-weight: bolder;
+}
+
+#panel1A_2{
+    width: 20vw;
+    height:2cqmax;
+    
+    text-align: center;
+} 
+.panel1B{
+    width: 45vw;
+    height:35vh;
+  
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#panel1B_1{
+   width:13vw;
+   height:25vh;
+   box-shadow: 0px 0px 2px 2px rgb(236, 232, 232);
+   display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#panel1B_2{
+    width:13vw;
+    height:25vh;
+    box-shadow: 0px 0px 2px 2px rgb(236, 232, 232);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+#panel1B_3{
+    width:13vw;
+    height:25vh;
+    box-shadow: 0px 0px 2px 2px rgb(236, 232, 232);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#panel1B_1img{
+    width:35px;
+    height:35px;
+    background-image: url("img1 (1).png");
+    background-size: contain;
+}
+#panel1B_1head{
+    width:10vw;
+    height:8vh;
+   
+    font-size: 20px;
+    text-align: center;
+}
+#panel1B_1text{
+    width:12vw;
+    height:8vh;
+   
+    font-size: x-small;
+    color: grey;
+}
+#panel1B_2img{
+    width:35px;
+    height:35px;
+    background-image: url("img1 (2).png");
+    background-size: contain;
+}
+#panel1B_2head{
+    width:10vw;
+    height:8vh;
+    
+    font-size: 20px;
+    text-align: center;
+}
+#panel1B_2text{
+    width:12vw;
+    height:8vh;
+    color: grey;
+    font-size: x-small;    
+}
+#panel1B_3img{
+    width:35px;
+    height:35px;
+    background-image: url("img1 (3).png");
+    background-size: contain;
+}
+#panel1B_3head{
+    width:10vw;
+    height:8vh;
+  
+    font-size: 20px;
+    text-align: center;
+}
+#panel1B_3text{
+    width:12vw;
+    height:8vh;
+    color: grey;
+    font-size: x-small;
+}
+/*PANEL 1 finished */
